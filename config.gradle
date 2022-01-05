@@ -1,0 +1,13 @@
+ext {
+
+    COMPILESDKVERSION = 31
+    BUILDTOOLSVERSION = '30.0.0'
+    MINSDKVERSION = 26
+    TARGETSDKVERSION = 31
+    VOLLEY_VERSION = '1.2.1'
+
+    dep = [
+            Volley : "com.android.volley:volley:${VOLLEY_VERSION}"
+    ]
+
+}
