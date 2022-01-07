@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
         newCall.enqueue(object: Callback {
             override fun onFailure(call: Call, e: IOException) {
                 Log.e(TAG, "onFailure")
-
+                e.printStackTrace()
             }
 
             override fun onResponse(call: Call, response: Response) {
