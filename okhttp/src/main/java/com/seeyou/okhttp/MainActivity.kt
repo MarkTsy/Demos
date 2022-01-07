@@ -30,10 +30,8 @@ class MainActivity : AppCompatActivity() {
 
             override fun onResponse(call: Call, response: Response) {
                 Log.e(TAG, "onResponse : " + response.message)
-
             }
         })
-
 
     }
 }
