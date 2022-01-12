@@ -6,10 +6,12 @@ ext {
     TARGETSDKVERSION = 31
     VOLLEY_VERSION = '1.2.1'
     OKHTTP3_VERSION = '4.9.3'
+    RETROFIT_VERSION = "2.9.0"
 
     dep = [
             Volley : "com.android.volley:volley:${VOLLEY_VERSION}",
-            OkHttp3 : "com.squareup.okhttp3:okhttp:${OKHTTP3_VERSION}"
+            OkHttp3 : "com.squareup.okhttp3:okhttp:${OKHTTP3_VERSION}",
+            Retrofit2 : "com.squareup.retrofit2:retrofit:${RETROFIT_VERSION}"
     ]
 
 }
