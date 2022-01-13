@@ -25,6 +25,22 @@ public class MainActivity extends AppCompatActivity {
                     .build();
 
             BaiduRequest baiduRequest = retrofit.create(BaiduRequest.class);
+
+            BdRequest bdRequest = retrofit.create(BdRequest.class);
+
+            Call<String> bdString = bdRequest.getBdString();
+            bdString.enqueue(new Callback<String>() {
+                @Override
+                public void onResponse(Call<String> call, Response<String> response) {
+
+                }
+
+                @Override
+                public void onFailure(Call<String> call, Throwable t) {
+
+                }
+            });
+
             Call<String> baiduString = baiduRequest.getBaiduString();
             baiduString.enqueue(new Callback<String>() {
                 @Override
