@@ -9,12 +9,16 @@ ext {
     OKHTTP3_VERSION = '4.9.3'
     RETROFIT_VERSION = '2.9.0'
     EVENTBUS_VERSION = '3.3.1'
+    RXJAVA_VERSION = '3.0.0'
+    RXANDROID_VERSION = '3.0.0'
 
     dep = [
             Volley : "com.android.volley:volley:${VOLLEY_VERSION}",
             OkHttp3 : "com.squareup.okhttp3:okhttp:${OKHTTP3_VERSION}",
             Retrofit2 : "com.squareup.retrofit2:retrofit:${RETROFIT_VERSION}",
-            EventBus : "org.greenrobot:eventbus:${EVENTBUS_VERSION}"
+            EventBus : "org.greenrobot:eventbus:${EVENTBUS_VERSION}",
+            RxJava : "io.reactivex.rxjava3:rxjava:${RXJAVA_VERSION}",
+            RxAndroid : "io.reactivex.rxjava3:rxandroid:${RXJAVA_VERSION}"
     ]
 
 }
