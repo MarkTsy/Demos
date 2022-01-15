@@ -12,13 +12,20 @@ ext {
     RXJAVA_VERSION = '3.0.0'
     RXANDROID_VERSION = '3.0.0'
 
+    WMROUTER_VERSION = '1.2.0'
+    WMROUTER_COMPILER_VERSION = '1.2.0'
+    WMROUTER_PLUG_VERSION = '1.2.0'
+
     dep = [
             Volley : "com.android.volley:volley:${VOLLEY_VERSION}",
             OkHttp3 : "com.squareup.okhttp3:okhttp:${OKHTTP3_VERSION}",
             Retrofit2 : "com.squareup.retrofit2:retrofit:${RETROFIT_VERSION}",
             EventBus : "org.greenrobot:eventbus:${EVENTBUS_VERSION}",
             RxJava : "io.reactivex.rxjava3:rxjava:${RXJAVA_VERSION}",
-            RxAndroid : "io.reactivex.rxjava3:rxandroid:${RXJAVA_VERSION}"
+            RxAndroid : "io.reactivex.rxjava3:rxandroid:${RXJAVA_VERSION}",
+            WmRouter : "com.sankuai.waimai.router:router:${WMROUTER_VERSION}",
+            WmRouterPlug : "com.sankuai.waimai.router:plugin:${WMROUTER_PLUG_VERSION}",
+            WmRouterCompiler : "com.sankuai.waimai.router:compiler:${WMROUTER_COMPILER_VERSION}"
     ]
 
 }

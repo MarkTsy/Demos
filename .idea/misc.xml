@@ -9,6 +9,7 @@
         <entry key="eventbus/src/main/res/layout/fragment_blank.xml" value="0.4003215434083601" />
         <entry key="okhttp/src/main/res/layout/activity_main.xml" value="0.33697916666666666" />
         <entry key="retrofit/src/main/res/layout/activity_main.xml" value="0.590625" />
+        <entry key="wmrouter/src/main/res/layout/activity_main.xml" value="0.590625" />
       </map>
     </option>
   </component>
