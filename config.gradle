@@ -1,9 +1,9 @@
 ext {
 
-    COMPILESDKVERSION = 31
+    COMPILESDKVERSION = 30
     BUILDTOOLSVERSION = '30.0.0'
     MINSDKVERSION = 26
-    TARGETSDKVERSION = 31
+    TARGETSDKVERSION = 30
 
     VOLLEY_VERSION = '1.2.1'
     OKHTTP3_VERSION = '4.9.3'
@@ -17,6 +17,7 @@ ext {
     WMROUTER_PLUG_VERSION = '1.2.0'
 
     dep = [
+            gradle_plug : "com.android.tools.build:gradle:4.1.2",
             Volley : "com.android.volley:volley:${VOLLEY_VERSION}",
             OkHttp3 : "com.squareup.okhttp3:okhttp:${OKHTTP3_VERSION}",
             Retrofit2 : "com.squareup.retrofit2:retrofit:${RETROFIT_VERSION}",
@@ -29,3 +30,5 @@ ext {
     ]
 
 }
+
+
