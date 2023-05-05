@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\workspace\\Demos\\rexjava\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "D:\\workspace\\Demos\\rexjava\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "D:\\workspace\\Demos\\rexjava\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "D:\\workspace\\Demos\\rexjava\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "D:\\workspace\\Demos\\rexjava\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "D:\\workspace\\Demos\\rexjava\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\workspace\\Demos\\rexjava\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "D:\\workspace\\Demos\\rexjava\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    }
+]

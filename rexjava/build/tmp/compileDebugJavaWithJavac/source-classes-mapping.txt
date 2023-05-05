@@ -1,0 +1,2 @@
+com/seeyou/rexjava/BuildConfig.java
+ com.seeyou.rexjava.BuildConfig
