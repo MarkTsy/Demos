@@ -8,8 +8,9 @@ package com.seeyou.databinding
  */
 class AgeUtil {
     companion object {
+        @JvmStatic
         fun getAgeStr(age: Int) : String {
-            return "$age years old"
+            return "" + age
         }
     }
 }

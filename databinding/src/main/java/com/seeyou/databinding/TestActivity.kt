@@ -10,7 +10,7 @@ class TestActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         val contentView =
             DataBindingUtil.setContentView<ActivityTestBinding>(this, R.layout.activity_test)
-//        contentView.person = Person("Mark", 18)
-//        contentView.imageUrl = "https://pic.rmb.bdstatic.com/bjh/news/61bb7bd6c21bcc9dd6881e76be117eb9.jpeg"
+        contentView.person = Person("Mark", 18)
+        contentView.avaUrl = "https://profile.csdnimg.cn/F/E/E/0_seeyoumt"
     }
 }
